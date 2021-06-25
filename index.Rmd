@@ -502,9 +502,9 @@ ggplot(student_survey, aes(x = fb_visits_per_day)) +
 
 # Atividades para a Semana
 
-- Fechar tutoriais `1` e `2`
-- Fechar tutorial `swirl`
-- Começar a trabalhar no `Projeto 1` (primeira entrega do Projeto integrador)
+- Fechar tutoriais `1` e `2` - **30/06**
+- Fechar tutorial `swirl` - **Sem entrega**
+- Começar a trabalhar no `Projeto 1` (primeira entrega do Projeto integrador) - **01/07**
 - Fazer atividades da apresentação do `encontro síncrono 4`
 
 
