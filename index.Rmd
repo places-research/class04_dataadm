@@ -3,7 +3,7 @@ title: "Visualizando - ggplot2"
 subtitle: "Encontros Síncronos 04 e 05"
 author: 
   - <br></br>Renata Oliveira
-date: '02/02/2021 e 09/02/2021'
+date: '25/06/2021 e 02/07/2021'
 output:
   xaringan::moon_reader:
     lib_dir: libs
