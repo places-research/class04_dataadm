@@ -498,6 +498,17 @@ ggplot(student_survey, aes(x = fb_visits_per_day)) +
 ```
 
 ---
+
+
+# Atividades para a Semana
+
+- Fechar tutoriais `1` e `2`
+- Fechar tutorial `swirl`
+- Começar a trabalhar no `Projeto 1` (primeira entrega do Projeto integrador)
+- Fazer atividades da apresentação do `encontro síncrono 4`
+
+
+---
 class: middle
 
 # ggplot2 `r emo::ji("heart")` `r emo::ji("penguin")`
@@ -1217,10 +1228,4 @@ ggplot(
 ]
 
 ---
-# Atividades para a Semana
-
-- Fechar tutoriais `1` e `2`
-- Fechar tutorial `swirl`
-- `Tutorial 3`
-- Fazer atividades da apresentação do `encontro síncrono 4`
 
