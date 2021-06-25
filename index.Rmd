@@ -204,10 +204,9 @@ class: middle
 
 ## Terminologia
 
-.center[
 - Cada linha é uma **observação**
 - Cada coluna é uma **variável**
-]
+
 ```{r message=FALSE}
 starwars
 ```
