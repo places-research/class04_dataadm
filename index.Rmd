@@ -177,13 +177,6 @@ devtools::install_github("gadenbuie/xaringanExtra")
 3. Crie um chunk e gere um dataframe 
 4. `knit` o documento novamente. 
 
-### Outra exploração:
-
-1. Instale o package `flexdashboard` (install.packages("flexdashboard"))
-2. Gere um documento desse tipo no RStudio.
-3. Inclua dados e representações simples. Pode utilizar o `mtcars` e as funções `plot()`, `hist()` e `boxplot()`   
-4. Gere um `summary()` de algum dos vetores que compõe o dataframe. 
-
 ---
 
 ### Fazendo uma apresentação no R!
@@ -195,6 +188,14 @@ devtools::install_github("gadenbuie/xaringanExtra")
 
 ---
 
+### Outra exploração (individualmente)
+
+1. Instale o package `flexdashboard` (install.packages("flexdashboard"))
+2. Gere um documento desse tipo no RStudio.
+3. Inclua dados e representações simples. Pode utilizar o `mtcars` e as funções `plot()`, `hist()` e `boxplot()`   
+4. Gere um `summary()` de algum dos vetores que compõe o dataframe. 
+
+---
 class: middle
 
 # O que é um conjunto de dados?
