@@ -1,9 +1,9 @@
 ---
 title: "Visualizando - ggplot2"
-subtitle: "Encontros Síncronos 04 e 05"
+subtitle: "Encontros Síncronos 04, 05 e 06"
 author: 
   - <br></br>Renata Oliveira
-date: '25/06/2021 e 02/07/2021'
+date: '25/06/2021, 02/07/2021 e 09/07/2021'
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -936,6 +936,9 @@ ggplot(penguins,
 ```
 ]
 
+
+
+
 ---
 
 class: middle
@@ -1227,5 +1230,45 @@ ggplot(
 ```
 ]
 
----
 
+---
+class: middle, inverse
+
+# Como abrir arquivos .csv e .xlsx no R
+
+
+---
+# Principais comandos 
+
+```{r}
+getwd()
+```
+
+```{r eval=FALSE, include=TRUE}
+setwd("C:\\User\\Documents")
+```
+
+```{r eval=FALSE, include=TRUE}
+library(tidyverse)
+dados <- read_csv(file1)
+```
+
+```{r eval=FALSE, include=TRUE}
+library(readxl)
+transporte <- read_excel(arquivo, "Variáveis externas")
+```
+
+
+---
+class: middle, inverse
+
+# Atividades em classe
+
+---
+# Atividades
+
+1. Projeto integrador
+2. Xaringan e Xaringan Themer
+3. Tutorial 3
+
+---

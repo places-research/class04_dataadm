@@ -11,7 +11,7 @@
     <script src="libs/panelset/panelset.js"></script>
     <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
     <script src="libs/tile-view/tile-view.js"></script>
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"xacbf15fddd54ad48143eb47906700ff","expires":1}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"xcd0b86ed3ef4ed5951c8f98533d609c","expires":1}</script>
     <script src="libs/himalaya/himalaya.js"></script>
     <script src="libs/js-cookie/js.cookie.js"></script>
     <link href="libs/editable/editable.css" rel="stylesheet" />
@@ -30,9 +30,9 @@
 class: center, middle, inverse, title-slide
 
 # Visualizando - ggplot2
-## Encontros Síncronos 04 e 05
+## Encontros Síncronos 04, 05 e 06
 ### <br></br>Renata Oliveira
-### 25/06/2021 e 02/07/2021
+### 25/06/2021, 02/07/2021 e 09/07/2021
 
 ---
 
@@ -1007,6 +1007,9 @@ ggplot(penguins,
 ```
 ]
 
+
+
+
 ---
 
 class: middle
@@ -1323,8 +1326,56 @@ ggplot(
 &lt;img src="index_files/figure-html/unnamed-chunk-52-1.png" width="100%" style="display: block; margin: auto;" /&gt;
 ]
 
----
 
+---
+class: middle, inverse
+
+# Como abrir arquivos .csv e .xlsx no R
+
+
+---
+# Principais comandos 
+
+
+```r
+getwd()
+```
+
+```
+## [1] "D:/OneDrive - cefetmg.br/01_disciplinas/ERE/2021_1/dados/01_aulas/class04_dataadm"
+```
+
+
+```r
+setwd("C:\\User\\Documents")
+```
+
+
+```r
+library(tidyverse)
+dados &lt;- read_csv(file1)
+```
+
+
+```r
+library(readxl)
+transporte &lt;- read_excel(arquivo, "Variáveis externas")
+```
+
+
+---
+class: middle, inverse
+
+# Atividades em classe
+
+---
+# Atividades
+
+1. Projeto integrador
+2. Xaringan e Xaringan Themer
+3. Tutorial 3
+
+---
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
