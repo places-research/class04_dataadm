@@ -11,7 +11,7 @@
     <script src="libs/panelset/panelset.js"></script>
     <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
     <script src="libs/tile-view/tile-view.js"></script>
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"xcd0b86ed3ef4ed5951c8f98533d609c","expires":1}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"xc07a203f7994f33ab8028750980f6f2","expires":1}</script>
     <script src="libs/himalaya/himalaya.js"></script>
     <script src="libs/js-cookie/js.cookie.js"></script>
     <link href="libs/editable/editable.css" rel="stylesheet" />
@@ -1361,6 +1361,13 @@ dados &lt;- read_csv(file1)
 library(readxl)
 transporte &lt;- read_excel(arquivo, "Variáveis externas")
 ```
+
+
+```r
+library(googlesheets4)
+data &lt;- read_sheet("https://docs.google.com/spreadsheets/d/1U6Cf_qEOhiR9AZqTqS3mbMF3zt2db48ZP5v3rkrAEJY/edit#gid=780868077")
+```
+
 
 
 ---
